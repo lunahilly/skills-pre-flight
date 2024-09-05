@@ -1,0 +1,25 @@
+.products{
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px   ;
+}
+
+
+
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product__button{
+    width: 150px;
+    height: 80px;
+    font-size: 20px;
+    border-radius: 20px;
+    background: #E76F51;
+}

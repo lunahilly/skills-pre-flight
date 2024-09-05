@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Noto+Sans+Symbols+2&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styling/style.css">
+    <script src="/js/main.js" defer></script>
+    <script src="/js/colors.js" defer></script>
+    <script src="https://kit.fontawesome.com/c47146fe67.js" crossorigin="anonymous"></script>
+    <title>KickflipKings</title>
+</head>
+<body>
+<nav class="nav">
+    <div class="nav__left">
+        <a class="link" href="index.html">
+            <img class="nav__logo" src="/assets/logo/logo.png" alt="logo"></a>
+            <a class="link" href="index.html">
+            <p class="nav__name indie-flower-regular">KickflipKings</p>
+        </a>
+    </div>
+    <div class="nav__right">
+        <div class="filter">
+            <p class="nav__order">order</p>
+            <div class="up-down">
+                <i id="filterup" class="nav__orderUp fa-solid fa-chevron-up"></i> 
+                <i id="filterdown" class="nav__orderDown fa-solid fa-chevron-down"></i>
+            </div>
+        </div>
+        <div id="filter" class="filter__body">
+            <ul class="filter__list">
+                <li class="filter__listItem">
+                    <p class="filterItem">skateboard</p>
+                </li>
+                <li class="filter__listItem">
+                    <a class="product__link" href="pet.html">
+                    <p class="filterItem">pet</p>
+                    </a>
+                </li>
+                <li class="filter__listItem">
+                    <p class="filterItem">schoenen</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<main>
+    <div class="pet">
+        <div id="productimg" class="imgs">
+            <div id="symbol__img" class="symbol__img"></div>
+        </div>
+        <div class="colors">
+            <div id="wit" class="color wit"></div>
+            <div id="zilver" class="color zilver"></div>
+            <div id="goud" class="color goud"></div>
+            <div id="rood" class="color rood"></div>
+            <div id="blauw" class="color blauw"></div>
+        </div>
+        <div class="symbols">
+            <div id="bam" class="symbol"><img  src="/assets/symbols/symbol-BAM.png" alt=""></div>
+            <div id="bang" class="symbol"><img src="/assets/symbols/symbol-BANG.png" alt=""></div>
+            <div id="boo" class="symbol"><img src="/assets/symbols/symbol-BOO.png" alt=""></div>
+        </div>
+        <button><p>order</p></button>
+    </div>
+</main>
+
+</body>
+</html>

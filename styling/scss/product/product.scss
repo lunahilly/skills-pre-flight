@@ -1,0 +1,65 @@
+.pet{
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px   ;
+}
+
+.colors, .symbols{
+    display: flex;
+    gap: 30px   ;
+}
+
+
+.symbol> img{
+    width: 60px;
+    height: 60px;
+}
+.color{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.wit{
+    background: white;
+}
+
+.zilver{
+    background: linear-gradient(#fcfcfc, #999999);
+}
+
+.goud{
+    background: linear-gradient(#ffe3a9, #e7a969);
+}
+
+.rood{
+    background: #e21e26;
+}
+
+.blauw{
+   background: #009fe3; 
+}
+
+.imgs{
+    background: url("/assets/products/pet.png");
+    height: 350px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.symbol{
+    cursor: pointer;
+}
+
+.symbol__img{
+    background: url("/assets/symbols/symbol-BAM.png");
+    width: 100px;
+    height: 100px;
+}
